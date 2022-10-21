@@ -1,0 +1,11 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: rgba(255, 149, 0, 1);
+}
+
+h3 {
+  text-align: center;
+}

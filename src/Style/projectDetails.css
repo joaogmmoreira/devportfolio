@@ -1,0 +1,31 @@
+.folder {
+  width: auto;
+  height: auto;
+  max-width: 400px;
+  border: 3px solid rgba(255, 149, 0, 0.5);
+  border-radius: 10px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 500px;
+}
+
+.projectsDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.list {
+  width: 400px;
+}
+
+#projectName {
+  color: rgba(255, 149, 0, 1);
+}

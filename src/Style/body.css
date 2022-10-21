@@ -1,0 +1,19 @@
+.body {
+  display: flex;
+  justify-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+h1, h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.rounded {
+  border: 2px solid rgba(255, 149, 0, 0.2);
+  border-radius: 5px;
+  max-width: 600px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}

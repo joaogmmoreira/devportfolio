@@ -1,0 +1,11 @@
+footer {
+  background-image: linear-gradient(0deg, rgb(50, 50, 50), rgba(25, 25, 25, 1));  
+  height: 50px;  
+  font-size: small;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10%;
+  color: white;
+}
