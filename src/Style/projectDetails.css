@@ -1,3 +1,12 @@
+@media only screen and (max-width: 900px) {
+  .projectsDetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+  }
+}
+
 .folder {
   width: auto;
   height: auto;
