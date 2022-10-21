@@ -14,7 +14,9 @@ const englishProjects = [
     description: `It's a recipe app using React JS and Redux as main technologies and being fed by a recipe API.
     It has a login page with user and password validation, different kinds of search filters on recipes page and recipes details page.
     Furthermore it uses local storage to keep chosen recipes progress.`,
-    thumbnail: recipeImg
+    thumbnail: recipeImg,
+    linkToPage: 'https://joaogmmoreira.github.io/recipesapp/',
+    
   },
   {
     name: 'TrybeWarts',
@@ -27,7 +29,8 @@ const englishProjects = [
     group: 'Me + 1 person',
     description: `This project's main challenge was to validate the forms's fields, 
     in addition to using CSS flexbox to put everything in its place. Furthermore we had to manipulate the DOM.`,
-    thumbnail: trybewartsImg
+    thumbnail: trybewartsImg,
+    linkToPage: 'https://joaogmmoreira.github.io/trybewarts/'
   },
 ]
 

@@ -2,7 +2,7 @@
   "name": "gitpages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joaogmmoreira.github.io/portfolio/",
+  "homepage": "https://joaogmmoreira.github.io/devportfolio/",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.16.5",

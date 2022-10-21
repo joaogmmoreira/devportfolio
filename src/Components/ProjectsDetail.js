@@ -14,7 +14,8 @@ class ProjectsDetail extends React.Component {
         tech,
         group,
         description,
-        thumbnail
+        thumbnail,
+        linkToPage
         }) => {
         return (
           <ProjectsDescriptionPortuguese
@@ -25,6 +26,7 @@ class ProjectsDetail extends React.Component {
           group={ group }
           description={ description }
           thumbnail={ thumbnail }
+          linkToPage={ linkToPage }
           />
         )
       })
@@ -36,7 +38,8 @@ class ProjectsDetail extends React.Component {
         tech, 
         group, 
         description,
-        thumbnail
+        thumbnail,
+        linkToPage
       }) => {
         return (
           <ProjectsDescriptionEnglish
@@ -47,6 +50,7 @@ class ProjectsDetail extends React.Component {
           group={ group }
           description={ description }
           thumbnail={ thumbnail }
+          linkToPage={ linkToPage }
           />
         )
       })

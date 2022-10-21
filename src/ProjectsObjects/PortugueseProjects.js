@@ -13,7 +13,8 @@ const portugueseProjects = [
     description: `Um app de receitas usando React JS e Redux como principais tecnologias e sendo alimentado por uma API de receitas.
     Conta com página de login com validação de usuário e senha, diferentes filtros de busca na pagina de receitas e página de detalhes de cada receita.
     Além disso utiliza local storage para manter o progresso das receitas escolhidas.`,
-    thumbnail: recipeImg   
+    thumbnail: recipeImg,
+    linkToPage: 'https://joaogmmoreira.github.io/recipesapp/',
   },
   {
     name: 'TrybeWarts',
@@ -26,7 +27,8 @@ const portugueseProjects = [
     group: 'Eu + 1 pessoa',
     description: `O desafio desse projeto era conseguir realizar as validações necessárias nos campos do formulário,
     se utilizar de  CSS flexbox para colocar cada coisa em seu lugar além da manipulação do DOM.`,
-    thumbnail: trybewartsImg
+    thumbnail: trybewartsImg,
+    linkToPage: 'https://joaogmmoreira.github.io/trybewarts/'
   },
 ]
 
