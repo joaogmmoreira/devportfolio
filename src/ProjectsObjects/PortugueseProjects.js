@@ -1,5 +1,6 @@
 const recipeImg = require('../Images/recipes_app_folder.png');
 const trybewartsImg = require('../Images/trybewarts_folder.png');
+const tryunfoImg = require('../Images/tryunfo_folder.png');
 const portugueseProjects = [
   {
     name: 'Recipes App',
@@ -29,6 +30,20 @@ const portugueseProjects = [
     se utilizar de  CSS flexbox para colocar cada coisa em seu lugar além da manipulação do DOM.`,
     thumbnail: trybewartsImg,
     linkToPage: 'https://joaogmmoreira.github.io/trybewarts/'
+  },
+  {
+    name: 'Tryunfo',
+    type: 'Frontend',
+    tech: {
+      tech1: 'React JS',
+      tech2: 'React State',
+      tech3: 'Single Page Application'
+    },
+    group: 'Só eu',
+    description: `Uma brincadeira com o jogo Super Trunfo onde fazemos as cartas com o tema preferido.
+    O grande desafio era conseguir realizar tudo apenas utilizando o estado do React`,
+    thumbnail: tryunfoImg,
+    linkToPage: 'https://joaogmmoreira.github.io/tryunfo/',
   },
 ]
 

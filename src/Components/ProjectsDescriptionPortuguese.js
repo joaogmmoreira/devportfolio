@@ -6,8 +6,8 @@ class ProjectsDescriptionPortuguese extends React.Component {
   render() {
     const { name, type, tech, group, description, thumbnail, linkToPage } = this.props;
     return (
-      <a href={ linkToPage }>
-        <div className='project'>
+      <div className='project'>
+        <a href={ linkToPage }>
           <p id='projectName'>{ name }</p>
           <img className='folder' alt={`Capa do ${name}`} src={ thumbnail }/>
           <div className='list'>   
@@ -18,8 +18,8 @@ class ProjectsDescriptionPortuguese extends React.Component {
               <li>Descrição do Projeto: { description }</li>
             </ul>
           </div> 
-        </div>
-      </a>     
+        </a>     
+      </div>
     )
   }
 }
