@@ -5,12 +5,31 @@
     flex-wrap: wrap;
     max-width: 300px;
   }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-align: left;
+    width: 250px;
+    max-height: 400px;
+  }
+
+  .folder {
+    max-width: 200px;
+  }
+
+  .list {
+    max-width: 250px;
+  }
 }
 
 .folder {
   width: auto;
   height: auto;
-  max-width: 400px;
+  width: 400px;
   border: 3px solid rgba(255, 149, 0, 0.5);
   border-radius: 10px;
 }
@@ -18,7 +37,6 @@
 .project {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   height: 500px;
 }

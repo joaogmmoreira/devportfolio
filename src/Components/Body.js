@@ -9,14 +9,14 @@ class Body extends React.Component {
   render() {
     const { languageState } = this.props;
     return (
-      <body>
+      <div className='body'>
         <Title languageState={ languageState } />
         <Description languageState={ languageState } />
         <hr className='rounded'/>
         <Projects languageState={ languageState } />
         <hr className='rounded'/>
         <Contacts languageState={ languageState }/>
-      </body>
+      </div>
     )
   }
 }

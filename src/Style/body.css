@@ -5,17 +5,22 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: 100%;   
+    text-align: center; 
   }
 
   h1, h2 {
-    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
   }
+
 }
 
 .body {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   padding-left: 15%;
   padding-right: 15%;
 }
