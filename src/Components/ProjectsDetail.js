@@ -58,7 +58,6 @@ class ProjectsDetail extends React.Component {
     }
   }
   render() {
-    const { languageState } = this.props;
     return (
       <div className='projectsDetails'>
         {

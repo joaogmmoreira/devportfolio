@@ -15,7 +15,7 @@ class PortugueseDescription extends React.Component {
           Ali eu descobri o significado real de mudar o mundo. "Quando a gente muda o mundo muda com a gente".
         </p>
         <p>        
-          Após a faculdade fui trabalhar com meu pai na empresa de transportes de carga da família
+          Após a faculdade fui trabalhar com meu pai na empresa da família
           realizando todos os tipos de atividades para fazer o negócio andar.
           Trabalhei também como representante comercial em outra empresa. 
         </p>
