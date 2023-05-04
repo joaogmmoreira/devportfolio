@@ -1,11 +1,10 @@
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   .projects {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* max-width: 300px; */
   }
 
   h3 {
@@ -42,4 +41,4 @@
 
 h3 {
   text-align: center;
-}
+} */

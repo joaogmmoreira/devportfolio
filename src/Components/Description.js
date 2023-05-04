@@ -4,23 +4,19 @@ import '../Style/description.css';
 import EnglishDescription from './EnglishDescription';
 import PortugueseDescription from './PortugueseDescription';
 
-class Description extends React.Component {
-  render() {
-    const { languageState } = this.props;
+export default function Description(props) { 
+    const { languageState } = props;
 
     return (
-      <div className='description'>
+    <div className='description'>
         <section className='myStory'>
-          {
+        {
             languageState.language === 'portugues' ? <PortugueseDescription /> : <EnglishDescription />
-          }
+        }
         </section>
         <section className='myPhoto'>
-          <img id='myPhoto' alt='Me' src={me}/>
+        <img id='myPhoto' alt='Me' src={me}/>
         </section>
-      </div>
+    </div>
     )
-  }
 }
-
-export default Description;

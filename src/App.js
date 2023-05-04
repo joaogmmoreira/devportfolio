@@ -4,12 +4,8 @@ import './Style/allComponents.css';
 
 // estado para alterar de portugues para ingles com renderização condicional
 
-class App extends React.Component {
-  render() {
+export default function App() {  
     return (      
       <MainPage/>
     )
-  }
 }
-
-export default App;
