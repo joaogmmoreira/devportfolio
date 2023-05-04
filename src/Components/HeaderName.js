@@ -1,13 +1,9 @@
 import React from 'react';
 
-class HeaderName extends React.Component {
-  render() {
+export default function HeaderName() {  
     return (
       <>
         <span>Desenvolvedor João Moreira</span>        
       </>     
     )
-  }
 }
-
-export default HeaderName;

@@ -1,8 +1,7 @@
 import React from 'react';
 
-class ProjectsDescriptionEnglish extends React.Component {
-  render() {
-    const { name, type, tech, group, description, thumbnail, linkToPage } = this.props;
+export default function ProjectsDescriptionEnglish(props) {
+    const { name, type, tech, group, description, thumbnail, linkToPage } = props;
     return (
       <a href={ linkToPage }>
         <div className='project'>
@@ -19,7 +18,4 @@ class ProjectsDescriptionEnglish extends React.Component {
         </div>
       </a>     
     )
-  }
 }
-
-export default ProjectsDescriptionEnglish;

@@ -1,10 +1,9 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import '../Style/projectsDescription.css';
 
-class ProjectsDescriptionPortuguese extends React.Component {
-  render() {
-    const { name, type, tech, group, description, thumbnail, linkToPage } = this.props;
+export default function ProjectsDescriptionPortuguese(props) {
+
+    const { name, type, tech, group, description, thumbnail, linkToPage } = props;
     return (
       <div className='project'>
         <a href={ linkToPage }>
@@ -21,7 +20,4 @@ class ProjectsDescriptionPortuguese extends React.Component {
         </a>     
       </div>
     )
-  }
 }
-
-export default ProjectsDescriptionPortuguese;

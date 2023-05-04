@@ -1,7 +1,6 @@
 import React from 'react';
 
-class PortugueseDescription extends React.Component {
-  render() {
+export default function PortugueseDescription() {
     return (
       <div>
       <h4 className='aboutMe'>Sobre mim</h4>
@@ -25,7 +24,4 @@ class PortugueseDescription extends React.Component {
         </p>
       </div>
     )
-  }
 }
-
-export default PortugueseDescription;

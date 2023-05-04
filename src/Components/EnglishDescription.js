@@ -1,7 +1,6 @@
 import React from 'react';
 
-class EnglishDescription extends React.Component {
-  render() {
+export default function EnglishDescription() {
     return (
       <div>
         <h4 className='aboutMe'>About me</h4>      
@@ -28,7 +27,4 @@ class EnglishDescription extends React.Component {
         </p>
       </div>
     )
-  }
 }
-
-export default EnglishDescription;

@@ -2,9 +2,8 @@ import React from 'react';
 import '../Style/projects.css';
 import ProjectsDetail from './ProjectsDetail';
 
-class Projects extends React.Component {
-  render() {
-    const { languageState } = this.props;
+export default function Projects(props) {
+    const { languageState } = props;
     return (
       <>
         <div className='projects'>
@@ -20,7 +19,4 @@ class Projects extends React.Component {
         </div>
       </>
     )
-  }
 }
-
-export default Projects;

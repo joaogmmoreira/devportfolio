@@ -5,9 +5,9 @@ import ProjectsDescriptionPortuguese from './ProjectsDescriptionPortuguese';
 import ProjectsDescriptionEnglish from './ProjectsDescriptionEnglish';
 import '../Style/projectDetails.css'
 
-class ProjectsDetail extends React.Component {
-  projectDetailsRender = () => {
-    const { languageState } = this.props;
+export default function ProjectsDetail(props) {
+  const projectDetailsRender = () => {
+    const { languageState } = props;
     if (languageState.language === 'portugues') {
       const render = portugueseProjects.map(({ name,
         type,
@@ -57,15 +57,12 @@ class ProjectsDetail extends React.Component {
       return render;
     }
   }
-  render() {
+
     return (
       <div className='projectsDetails'>
         {
-          this.projectDetailsRender()
+          projectDetailsRender()
         }
       </div>     
     )
-  }
 }
-
-export default ProjectsDetail;
