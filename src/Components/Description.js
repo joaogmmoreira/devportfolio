@@ -1,8 +1,7 @@
 import React from 'react';
-import me from '../Images/eu.jpg';
-import '../Style/description.css';
 import EnglishDescription from './EnglishDescription';
 import PortugueseDescription from './PortugueseDescription';
+// import '../Style/description.css';
 
 export default function Description(props) { 
     const { languageState } = props;
@@ -10,12 +9,7 @@ export default function Description(props) {
     return (
     <div className='description'>
         <section className='myStory'>
-        {
-            languageState.language === 'portugues' ? <PortugueseDescription /> : <EnglishDescription />
-        }
-        </section>
-        <section className='myPhoto'>
-        <img id='myPhoto' alt='Me' src={me}/>
+            { languageState.language === 'portugues' ? <PortugueseDescription /> : <EnglishDescription /> }
         </section>
     </div>
     )

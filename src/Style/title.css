@@ -1,0 +1,84 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../Images/eu2.jpg);
+    background-size: 100%;
+    height: 550px;
+    background-color: black;
+    /* box-shadow: inset 0px 0px 40px 40px #ffffff; */
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    width: 400px;
+    cursor: pointer;
+}
+
+.title-paragraph {
+    padding-right: 10%;
+    padding-bottom: 7%;;
+    text-align: right;
+    align-self: flex-end;
+    color: white
+}
+
+h1 {
+  font-size: 52px;
+  background: -webkit-linear-gradient(left, #687efa, #00ffb3);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#britishFlag {
+  max-height: 14px ;
+}
+
+#brazilianFlag {
+  max-height: 15px;  
+}
+
+.flags {
+  height: 20px;
+  width: 120px;
+}
+
+#brazilianFlag {
+    margin-right: 2px;
+}
+
+#britishFlag {
+    margin-right: 2px;
+}
+
+a:link { 
+  text-decoration: none;
+  color: rgba(255, 149, 0, 1);
+}
+
+
+a:visited { 
+  text-decoration: none; 
+  color: rgba(255, 149, 0, 1);
+}
+
+
+a:hover { 
+  text-decoration: none;
+  color: rgba(255, 149, 0, 0.7);
+}
+
+
+a:active { 
+  text-decoration: none; 
+  color: rgba(255, 149, 0, 0.7);
+}
+

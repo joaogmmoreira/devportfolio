@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Style/projectsDescription.css';
+// import '../Style/projectsDescription.css';
 
 export default function ProjectsDescriptionPortuguese(props) {
 

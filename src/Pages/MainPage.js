@@ -1,12 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
-import Header from '../Components/Header';
+import Title from '../Components/Title';
 import Body from '../Components/Body';
 import Footer from '../Components/Footer';
 
 
 export default function MainPage() {
-    const [languageState, setLanguageState] = useState({ language: "portugues" })
+    const [languageState, setLanguageState] = useState({ language: "english" })
 
     const setLanguageToEnglish = () => {
         setLanguageState({language: "english"})
@@ -16,17 +16,16 @@ export default function MainPage() {
         setLanguageState({language: "portugues"})
     }
 
-
     return(
-    <div className='allComponents'>
-    <Header 
-        setLanguageToEnglish={setLanguageToEnglish}
-        setLanguageToPortuguese={setLanguageToPortuguese}
-        />
-    <Body languageState={languageState}/>       
-    <Footer />
-    </div>
-  
+        <>
+            <Title 
+                setLanguageToEnglish={ setLanguageToEnglish }
+                setLanguageToPortuguese={ setLanguageToPortuguese }
+                languageState={ languageState }
+            />
+            <Body languageState={ languageState }/>       
+            <Footer />
+        </>  
   )
 }
 

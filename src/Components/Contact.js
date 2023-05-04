@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Style/contacts.css';
+// import '../Style/contacts.css';
 import { AiOutlineLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';

@@ -3,7 +3,7 @@ import portugueseProjects from '../ProjectsObjects/PortugueseProjects';
 import englishProjects from '../ProjectsObjects/EnglishProjects';
 import ProjectsDescriptionPortuguese from './ProjectsDescriptionPortuguese';
 import ProjectsDescriptionEnglish from './ProjectsDescriptionEnglish';
-import '../Style/projectDetails.css'
+// import '../Style/projectDetails.css'
 
 export default function ProjectsDetail(props) {
   const projectDetailsRender = () => {
