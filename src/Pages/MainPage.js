@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Title from '../Components/Title';
 import Body from '../Components/Body';
 import Footer from '../Components/Footer';
+import '../Style/general.css'
 
 
 export default function MainPage() {
@@ -17,7 +18,7 @@ export default function MainPage() {
     }
 
     return(
-        <>
+        <div className="general">
             <Title 
                 setLanguageToEnglish={ setLanguageToEnglish }
                 setLanguageToPortuguese={ setLanguageToPortuguese }
@@ -25,44 +26,6 @@ export default function MainPage() {
             />
             <Body languageState={ languageState }/>       
             <Footer />
-        </>  
+        </div>  
   )
 }
-
-// class MainPage extends React.Component {
-//   constructor() {
-//     super();
-//     this.state = {
-//       language: 'portugues',
-//     };
-//   }
-
-//   languageChangeToEnglish = () => {
-//       this.setState({
-//         language: 'english'
-//     });
-//   }
-
-//   languageChangeToPortuguese = () => {
-//     this.setState({
-//       language: 'portugues'
-//     });
-//   }
-    
-//   render() {
-//     const languageState = this.state;
-//     return (      
-//       <div className='allComponents'>
-//         <Header 
-//           languageChangeToEnglish={this.languageChangeToEnglish}
-//           languageChangeToPortuguese={this.languageChangeToPortuguese}
-//           />
-//         <Body languageState={languageState}/>       
-//         <Footer />
-//       </div>
-      
-//     )
-//   }
-// }
-
-// export default MainPage;

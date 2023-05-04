@@ -3,8 +3,12 @@ import EnglishTitle from './EnglishTitle';
 import PortugueseTitle from './PortugueseTitle';
 import brazilianFlag from '../Images/Flag_of_Brazil.svg';
 import britishFlag from '../Images/Flag_of_the_United_Kingdom.svg.png';
-import '../Style/header.css';
+import Arrow from './Arrow';
+// import { AiOutlineLinkedin } from 'react-icons/ai';
+// import { AiFillGithub } from 'react-icons/ai';
+// import { AiOutlineMail } from 'react-icons/ai';
 import '../Style/title.css';
+import Contact from './Contact';
 
 export default function Title(props) {
     const { languageState } = props;
@@ -34,6 +38,8 @@ export default function Title(props) {
                 languageState.language === 'english' ? <EnglishTitle /> : <PortugueseTitle /> 
             }
         </div>
+        <Contact />
+        <Arrow />
     </div>
   )
 }

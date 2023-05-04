@@ -5,8 +5,8 @@
     justify-content: space-between;
     background-image: url(../Images/eu2.jpg);
     background-size: 100%;
-    height: 550px;
     background-color: black;
+    height: 98vh;
     /* box-shadow: inset 0px 0px 40px 40px #ffffff; */
 }
 
@@ -24,18 +24,49 @@
 }
 
 .title-paragraph {
-    padding-right: 10%;
-    padding-bottom: 7%;;
+    padding-right: 7%;
     text-align: right;
     align-self: flex-end;
     color: white
 }
 
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    width: 400px;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure {
+    margin-right: 2px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 h1 {
-  font-size: 52px;
+  font-size: 7.5vh;
   background: -webkit-linear-gradient(left, #687efa, #00ffb3);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 5vh;;
 }
 
 #britishFlag {
@@ -59,7 +90,8 @@ h1 {
     margin-right: 2px;
 }
 
-a:link { 
+
+/* a:link { 
   text-decoration: none;
   color: rgba(255, 149, 0, 1);
 }
@@ -80,5 +112,57 @@ a:hover {
 a:active { 
   text-decoration: none; 
   color: rgba(255, 149, 0, 0.7);
+} */
+
+/* .arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
+} */
+
+.arrow {
+    height: 40px;
 }
 
+.scroll-down {
+  /* position: absolute; */
+  left: 50%;
+  bottom: 10px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  z-index: 100;
+  text-decoration: none;
+  text-shadow: 0;
+  width: 40px;
+  height: 40px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  z-index: 9;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+  -webkit-animation: fade_move_down 4s ease-in-out infinite;
+  -moz-animation:    fade_move_down 4s ease-in-out infinite;
+  animation:         fade_move_down 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-40px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0, -100px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0, -40px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0, -10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-40px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0, -10px) rotate(45deg); opacity: 0; }
+}
