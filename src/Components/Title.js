@@ -4,11 +4,9 @@ import PortugueseTitle from './PortugueseTitle';
 import brazilianFlag from '../Images/Flag_of_Brazil.svg';
 import britishFlag from '../Images/Flag_of_the_United_Kingdom.svg.png';
 import Arrow from './Arrow';
-// import { AiOutlineLinkedin } from 'react-icons/ai';
-// import { AiFillGithub } from 'react-icons/ai';
-// import { AiOutlineMail } from 'react-icons/ai';
-import '../Style/title.css';
 import Contact from './Contact';
+import PropTypes from 'prop-types';
+import '../Style/title.css';
 
 export default function Title(props) {
     const { languageState } = props;
@@ -43,4 +41,12 @@ export default function Title(props) {
     </div>
   )
 }
+
+Title.propTypes = {
+    languageState: PropTypes.object,
+    setLanguageToEnglish: PropTypes.func,
+    setLanguageToPortuguese: PropTypes.func,
+}
+
+
 

@@ -1,11 +1,12 @@
 import React from 'react';
-// import '../Style/footer.css';
+import '../Style/footer.css';
 
 export default function Footer() { 
-  return (
-    <footer>
-      <span>Dev João Moreira - 2022</span>
-    </footer>
-        
-  )
+    return (
+        <footer>
+            <div className='pe'>
+                <span>Dev João Moreira - 2023</span>
+            </div>        
+        </footer>        
+    )
 }

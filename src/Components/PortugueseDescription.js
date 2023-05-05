@@ -11,7 +11,7 @@ export default function PortugueseDescription() {
             <p>        
                 Fiz faculdade de biomedicina na UFRJ, tendo feito estágios de iniciação científica em laboratórios
                 voltados a bioquímica, mas o que eu me apaixonei de verdade foi a divulgação científica.        
-                Ali eu descobri o significado real de mudar o mundo. "Quando a gente muda o mundo muda com a gente".
+                Ali eu descobri o significado real de mudar o mundo. &apos;Quando a gente muda o mundo muda com a gente&apos;.
             </p>
             <p>        
                 Após a faculdade fui trabalhar com meu pai na empresa da família

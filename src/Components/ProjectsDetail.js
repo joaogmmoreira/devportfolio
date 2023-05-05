@@ -3,66 +3,71 @@ import portugueseProjects from '../ProjectsObjects/PortugueseProjects';
 import englishProjects from '../ProjectsObjects/EnglishProjects';
 import ProjectsDescriptionPortuguese from './ProjectsDescriptionPortuguese';
 import ProjectsDescriptionEnglish from './ProjectsDescriptionEnglish';
+import PropTypes from 'prop-types';
 // import '../Style/projectDetails.css'
 
 export default function ProjectsDetail(props) {
   const projectDetailsRender = () => {
     const { languageState } = props;
     if (languageState.language === 'portugues') {
-      const render = portugueseProjects.map(({ name,
-        type,
-        tech,
-        group,
-        description,
-        thumbnail,
-        linkToPage
-        }) => {
+        const render = portugueseProjects.map(({ name,
+            type,
+            tech,
+            group,
+            description,
+            thumbnail,
+            linkToPage
+    }) => {
         return (
-          <ProjectsDescriptionPortuguese
-          key={name}
-          name={ name }
-          type={ type }
-          tech={ tech }
-          group={ group }
-          description={ description }
-          thumbnail={ thumbnail }
-          linkToPage={ linkToPage }
-          />
+            <ProjectsDescriptionPortuguese
+                key={name}
+                name={ name }
+                type={ type }
+                tech={ tech }
+                group={ group }
+                description={ description }
+                thumbnail={ thumbnail }
+                linkToPage={ linkToPage }
+            />
         )
-      })
-      return render;
+        })
+        return render;
     }
-    if (languageState.language === 'english') {
-      const render = englishProjects.map(({name, 
-        type, 
-        tech, 
-        group, 
-        description,
-        thumbnail,
-        linkToPage
-      }) => {
+        if (languageState.language === 'english') {
+            const render = englishProjects.map(({name, 
+                type, 
+                tech, 
+                group, 
+                description,
+                thumbnail,
+                linkToPage
+            }) => {
         return (
-          <ProjectsDescriptionEnglish
-          key={name}
-          name={ name }
-          type={ type }
-          tech={ tech }
-          group={ group }
-          description={ description }
-          thumbnail={ thumbnail }
-          linkToPage={ linkToPage }
-          />
+            <ProjectsDescriptionEnglish
+                key={name}
+                name={ name }
+                type={ type }
+                tech={ tech }
+                group={ group }
+                description={ description }
+                thumbnail={ thumbnail }
+                linkToPage={ linkToPage }
+            />
         )
-      })
-      return render;
-    }
-  }
+        })
+        return render;
+        }
+        }
 
     return (
-      <div className='projectsDetails'>
+        <div className='projectsDetails'>
         {
-          projectDetailsRender()
+            projectDetailsRender()
         }
-      </div>     
+        </div>     
     )
+}
+
+ProjectsDetail.propTypes = {
+    languageState: PropTypes.object.isRequired,
 }

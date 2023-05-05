@@ -5,4 +5,4 @@ export default function Manutencao() {
     return (
      <p>Outros projetos estão em manutenção</p>
     )
-};
+}

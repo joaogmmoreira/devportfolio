@@ -1,0 +1,19 @@
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 96vh;
+    font-size: 3vh;
+}
+
+.myStory {
+    align-self: center;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.aboutMe {
+    font-size: 6vh;
+}
