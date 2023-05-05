@@ -17,6 +17,19 @@ const portugueseProjects = [
     thumbnail: recipeImg,
     linkToPage: 'https://joaogmmoreira.github.io/recipesapp/',
   },
+  {
+    name: 'Delivery App',
+    type: 'Fullstack',
+    tech: {
+      tech1: 'React JS',
+      tech2: 'RestAPI',
+      tech3: 'Time'
+    },
+    group: 'Eu + 4 pessoas',
+    description: `oi`,
+    thumbnail: recipeImg,
+    linkToPage: 'https://joaogmmoreira.github.io/recipesapp/',
+  },
 ]
 
 export default portugueseProjects;
