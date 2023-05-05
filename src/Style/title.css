@@ -6,7 +6,7 @@
     background-image: url(../Images/eu2.jpg);
     background-size: 100%;
     background-color: black;
-    height: 98vh;
+    height: 100vh;
 }
 
 .language {
@@ -112,12 +112,12 @@ h2 {
     margin-right: 2px;
 }
 
-.arrow {
+/* .arrow {
     height: 40px;
-}
+} */
 
-.scroll-down {
-  /* position: absolute; */
+/* .scroll-down {
+  position: absolute;
   left: 50%;
   bottom: 10px;
   display: block;
@@ -154,4 +154,4 @@ h2 {
   0%   { transform:translate(0,-40px) rotate(45deg); opacity: 0;  }
   50%  { opacity: 1;  }
   100% { transform:translate(0, -10px) rotate(45deg); opacity: 0; }
-}
+} */

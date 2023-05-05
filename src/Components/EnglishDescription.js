@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function EnglishDescription() {
     return (
-      <div>
-        <h4 className='aboutMe'>About me</h4>      
+      <div className='aboutMe'>
+        <h4>About me</h4>      
         <p>
           My name is João Gabriel. I was born in Rio de Janeiro and I&apos;ve live my whole life around here.
           I&apos;m Samuel&apos;s proud father. He is the love of my life.
