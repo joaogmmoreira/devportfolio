@@ -1,6 +1,6 @@
 const recipeImg = require('../Images/recipes_app_folder.png');
-// const trybewartsImg = require('../Images/trybewarts_folder.png');
-// const tryunfoImg = require('../Images/tryunfo_folder.png');
+const mauraRuteImg = require('../Images/maura_rute_folder.png');
+
 const portugueseProjects = [
   {
     name: 'Recipes App',
@@ -18,17 +18,18 @@ const portugueseProjects = [
     linkToPage: 'https://joaogmmoreira.github.io/recipesapp/',
   },
   {
-    name: 'Delivery App',
+    name: 'Maura Rute\'s Landing Page',
     type: 'Fullstack',
     tech: {
       tech1: 'React JS',
-      tech2: 'RestAPI',
-      tech3: 'Time'
+      tech2: 'Embed Google Docs',
+      tech3: 'Responsiveness for mobile'
     },
-    group: 'Eu + 4 pessoas',
-    description: `oi`,
-    thumbnail: recipeImg,
-    linkToPage: 'https://joaogmmoreira.github.io/recipesapp/',
+    group: 'Me',
+    description: `Uma página de destino para a coach cristã Maura Rute, utilizando o React JS para componentizar os elementos e permitir escalabilidade futura do aplicativo. 
+    Usamosando um formulário do Google Docs que já estava funcionando para o registro de estudantes.`,
+    thumbnail: mauraRuteImg,
+    linkToPage: 'https://maurarute.com',
   },
 ]
 

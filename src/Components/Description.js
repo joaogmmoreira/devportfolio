@@ -9,10 +9,12 @@ export default function Description(props) {
     const { languageState } = props;
 
     return (
-    <div className='description'>        
-        { languageState.language === 'portugues' ? <PortugueseDescription /> : <EnglishDescription /> }
+      <div className='main-description'>
+        <div className='description'>        
+          { languageState.language === 'portugues' ? <PortugueseDescription /> : <EnglishDescription /> }
+        </div>-
         <Arrow />
-    </div>
+      </div>
     )
 }
 
