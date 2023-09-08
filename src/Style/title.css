@@ -127,6 +127,10 @@ h2 {
     height: auto;
     background-repeat: no-repeat;
   }
+  .title-paragraph {
+    width: 95%;
+    padding-right: 5%;
+  }
   .title-paragraph h1 {
     padding: 5%;
     font-size: 36px;
