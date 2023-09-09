@@ -11,7 +11,6 @@
   align-items: center;
   text-align: center;
   padding: 5%;
-  /* padding-bottom: 0%; */
 }
 
 .aboutMe {
@@ -28,5 +27,6 @@
 @media (max-width: 750px) {
   .aboutMe {
     width: 100%;
+    font-size: 18px;
   }
 }

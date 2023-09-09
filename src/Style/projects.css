@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 3.2vh;
   padding: 5%;
 }
@@ -11,6 +11,7 @@
 .projectsDetails {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-evenly;
   width: 100%;
   font-size: 2.5vh;
@@ -22,8 +23,10 @@
 
 .projectCard {
   display: flex;
-  padding: 5%;
+  align-self: center;
+  justify-content: center;
   width: 30%;
+  padding-top: 2%;
 }
 
 #projectName {
@@ -38,14 +41,14 @@
   width: 100%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 680px) {
   .projectsDetails {
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
   }
 
   .projectCard {  
     width: 95%;
-}
+  }
 }

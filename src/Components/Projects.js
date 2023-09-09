@@ -6,7 +6,7 @@ import '../Style/projects.css';
 export default function Projects(props) {
     const { languageState } = props;
     return (
-        <div className='projects'>
+        <div id="proj" className='projects'>
             {
                 languageState.language === 'portugues' ? <h3>Projetos</h3> : <h3>Projects</h3>
             }

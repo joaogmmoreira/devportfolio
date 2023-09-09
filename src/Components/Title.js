@@ -6,6 +6,7 @@ import britishFlag from '../Images/Flag_of_the_United_Kingdom.svg.png';
 import Arrow from './Arrow';
 import Contact from './Contact';
 import PropTypes from 'prop-types';
+import { Link } from "react-scroll";
 import '../Style/title.css';
 
 export default function Title(props) {
@@ -36,8 +37,17 @@ export default function Title(props) {
                 languageState.language === 'english' ? <EnglishTitle /> : <PortugueseTitle /> 
             }
         </div>
-        <Contact />
-        <Arrow />
+        <Contact /> 
+        <Link
+          activeClass="active"
+          to="desc"
+          spy={true}
+          smooth={true}
+          // offset={-70}
+          duration={1000}
+        >
+          <Arrow />
+        </Link>       
     </div>
   )
 }
