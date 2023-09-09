@@ -27,7 +27,7 @@
 
 .title-paragraph {
   width: 80%;
-  padding-right: 20%;
+  padding-right: 5%;
   text-align: right;
   align-self: flex-end;
   color: white
@@ -128,16 +128,17 @@ h2 {
     background-repeat: no-repeat;
   }
   .title-paragraph {
-    width: 95%;
+    width: 100%;
     padding-right: 5%;
   }
   .title-paragraph h1 {
-    padding: 5%;
-    font-size: 36px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 28px;
   }
   .title-paragraph h2 {
     padding-bottom: 5%;
-    font-size: 24px;
+    font-size: 18px;
   }
   .contacts {
     padding: 5%;;
