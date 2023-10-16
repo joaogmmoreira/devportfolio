@@ -6,7 +6,7 @@ const portugueseProjects = [
     name: 'Recipes App',
     type: 'Frontend',
     tech: {
-      tech1: 'React JS',
+      tech1: 'ReactJS',
       tech2: 'Redux',
       tech3: 'ContextAPI'
     },
@@ -21,9 +21,9 @@ const portugueseProjects = [
     name: 'Maura Rute\'s Landing Page',
     type: 'Fullstack',
     tech: {
-      tech1: 'React JS',
+      tech1: 'ReactJS',
       tech2: 'Embed Google Docs',
-      tech3: 'Responsiveness for mobile'
+      tech3: 'Responsividade para celulares'
     },
     group: 'Me',
     description: `Uma página de destino para a coach cristã Maura Rute, utilizando o React JS para componentizar os elementos e permitir escalabilidade futura do aplicativo. 

@@ -22,13 +22,13 @@ const englishProjects = [
     name: 'Maura Rute\'s Landing Page',
     type: 'Fullstack',
     tech: {
-      tech1: 'React JS',
+      tech1: 'ReactJS',
       tech2: 'Embed Google Docs',
       tech3: 'Responsiveness for mobile'
     },
     group: 'Me',
     description: `A landing page for the christian coach Maura Rute using React JS for componentizing components and to be able to scale the application for future purposes.
-    It's using a Google Docs form that was already working for students registration`,
+    It's using a Google Docs form that was already working for students registration.`,
     thumbnail: mauraRuteImg,
     linkToPage: 'https://maurarute.com',
   },

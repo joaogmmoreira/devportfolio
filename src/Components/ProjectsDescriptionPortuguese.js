@@ -3,19 +3,18 @@ import PropTypes from 'prop-types';
 
 export default function ProjectsDescriptionPortuguese(props) {
 
-    const { name, type, tech, group, description, thumbnail, linkToPage } = props;
+    const { name, tech, description, thumbnail, linkToPage } = props;
     return (
         <div className='projectCard'>
-        <a href={ linkToPage }>
+          <a href={ linkToPage }>
             <p id='projectName'>{ name }</p>
             <img className='folder' alt={`Capa do ${name}`} src={ thumbnail }/>
             <div className='list'>            
-                <p>Tipo: { type }</p>
-                <p>Principais Tecnologias: {`${ tech.tech1 }, ${ tech.tech2 }, ${ tech.tech3 }`}</p>
-                <p>Grupo: { group }</p>
-                <p>Descrição do Projeto: { description }</p>            
+              <p>{`${ tech.tech1 } ${ tech.tech2 } ${ tech.tech3 }`}</p>
+              <br/>    
+              <p>{ description }</p>            
             </div> 
-        </a>     
+          </a>     
         </div>
     )
 }

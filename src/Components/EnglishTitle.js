@@ -3,14 +3,16 @@ import React from 'react';
 export default function EnglishTitle() {  
     return (
     <>
-        <h1>Hello, my name is
+        <h1>
+          Hello, my name is
         <br/>
-        João Moreira!</h1>
-        <h2>I&apos;m going to tell you a little bit about me
+          João Moreira!
+        </h1>
+        <h2>
+          I&apos;m going to show you my main projects as a
         <br/>
-        and show you my main projects as a
-        <br/>
-        FullStack Developer</h2>
+          FullStack Developer
+        </h2>
     </>
     )
 }
